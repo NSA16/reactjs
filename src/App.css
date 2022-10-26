@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+
+.testUser {
+  border: 1px solid blue;
+  background-color: pink;
+  height: 100px;
+  width: 100px;
+  display: inline-block;
+  margin: 5px;
+  text-align: center;
+  padding-top: auto;
+  padding-bottom: auto;
+}
+
+
+
