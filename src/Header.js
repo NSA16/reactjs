@@ -5,8 +5,8 @@ const menus = ["Home","About","Contact Us","Login"];
 const mainMenu = menus.map((item) => <li>{item}</li>);
 
 class Header extends React.Component {
-    constructor(propsNiDarna){
-        super(propsNiDarna);
+    constructor(props){
+        super(props);
     }
 
 render (){
@@ -16,7 +16,7 @@ render (){
             <ul>
                 {mainMenu}
             </ul>
-            <p>Testing Props Ni Darna</p>
+            <div>{this.props.tXt}</div>
         </div>
     );
 

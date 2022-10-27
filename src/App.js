@@ -9,7 +9,7 @@ import Footer from './Footer';
 function App() {
   return (
     <div>
-      <Header/>
+      <Header tXt="Ding and Bato!"/>
       <div className="">
         <User/>
         <p>Display?</p>
@@ -17,7 +17,7 @@ function App() {
       <div>
           <Board/>
       </div>
-      <Footer/>
+      <Footer sMs="Hello Props ni Darna - sa likod ng mga tala"/>
     </div>
   );
 }
