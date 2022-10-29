@@ -3,7 +3,7 @@ import User from './User';
 
 class Board extends React.Component {
     constructor(props){
-        super(props)
+        super(props);
     }
 
     sQuare(index) {

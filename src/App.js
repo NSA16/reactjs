@@ -6,6 +6,7 @@ import User from './User';
 import Board from './board';
 import Header from './Header';
 import Footer from './Footer';
+import Forms from './Forms';
 
 function App() {
   return (
@@ -14,6 +15,9 @@ function App() {
       <div className="">
         <User/>
         <p>Display?</p>
+      </div>
+      <div>
+        <Forms/>
       </div>
       <div>
           <Board/>
